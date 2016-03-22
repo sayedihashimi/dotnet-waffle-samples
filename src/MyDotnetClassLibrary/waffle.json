@@ -1,0 +1,39 @@
+{
+  "Name": "sayed.console",
+  "Type": "ProjectTemplate",
+  "CreateNewFolder": true,
+  "Alias": [
+    "sayed-classlib"
+  ],
+  "Replacements": [
+    {
+      "Key": "MyDotnetClassLibrary",
+      "Value": "$ProjectName",
+      "DefaultValue": "MyConsoleApp"
+    },
+    {
+      "Key": "..\\..\\artifacts",
+      "Value": "$Artifacts",
+      "DefaultValue": "..\\..\\artifacts"
+    },
+    {
+      "Key": "7105d14e-c66a-4cc1-bb64-a85bb38d3c6c",
+      "Value": "$ProjectGuid",
+      "DefaultValue": "$NewGuid()"
+    }
+  ],
+  "PathReplacemets": [
+    {
+      "Key": "MyDotnetClassLibrary",
+      "Value": "$ProjectName",
+      "DefaultValue": "MyConsoleApp"
+    }
+  ],
+  "Excludes": [
+    "artifacts",
+    ".vs",
+    "*.user",
+    "*.suo",
+    "project.lock.json"
+  ]
+}
